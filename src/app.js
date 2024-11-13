@@ -1,1 +1,7 @@
-// ici on va coder
+export class Main{
+    
+    simpleMinutesLine(minutes){
+
+        return "OOOO";
+    }
+}
