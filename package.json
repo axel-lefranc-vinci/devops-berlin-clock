@@ -1,0 +1,23 @@
+{
+  "name": "devops-berlin-clock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "jasmine": "^5.4.0"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axel-lefranc-vinci/devops-berlin-clock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axel-lefranc-vinci/devops-berlin-clock/issues"
+  },
+  "homepage": "https://github.com/axel-lefranc-vinci/devops-berlin-clock#readme",
+  "description": ""
+}
