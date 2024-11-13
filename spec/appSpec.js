@@ -1,20 +1,27 @@
 import { Main } from '../src/app.js';
 
-describe("Berlin Clock - Simple Minutes Line , ", function() {
+describe("Berlin Clock - Simple Minutes", function() {
     const main = new Main();
 
-    it("should turn off all lamps if minutes are 0", function () {
+    it("hould activate a light if the minutes are equal to 0", function () {
 
-        const result = main.simpleMinutesLine(0);
+        const result = main.simpleMinutes(0);
         
         expect(result).toEqual("OOOO");
       });
 
       
-    it("should turn on a light if the minutes are 1", function () {
+    it("should activate a light if the minutes are equal to 1", function () {
 
-        const result = main.simpleMinutesLine(1);
+        const result = main.simpleMinutes(1);
 
         expect(result).toEqual("YOOO");
+});
+
+it("should activate a light if the minutes are equal to 2", function () {
+
+    const result = main.simpleMinutes(2);
+
+    expect(result).toEqual("YYOO");
 });
 });
